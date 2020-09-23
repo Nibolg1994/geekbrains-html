@@ -422,6 +422,7 @@ body {
     background-image: url("../img/back-img.jpg");
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .mobile-title {
@@ -455,6 +456,24 @@ body {
     margin-top: 30px;
     display: inline-block;
     margin-right: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 384px;
+    background-color: #f7f7f7;
+    background-image: url("../img/footer-back.svg");
+}
+
+.networks {
+    color: #6c6c6c;
+    font-family: 'icomoon';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for ", " */
+    letter-spacing: 5.6px;
 }
 
 
