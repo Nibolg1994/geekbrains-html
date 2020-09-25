@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pirmzp');
-  src:  url('fonts/icomoon.eot?pirmzp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pirmzp') format('truetype'),
-    url('fonts/icomoon.woff?pirmzp') format('woff'),
-    url('fonts/icomoon.svg?pirmzp#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?app3bb');
+  src:  url('fonts/icomoon.eot?app3bb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?app3bb') format('truetype'),
+    url('fonts/icomoon.woff?app3bb') format('woff'),
+    url('fonts/icomoon.svg?app3bb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,15 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-google-plus:before {
-  content: "\ea8d";
+.icon-google-with-circle:before {
+  content: "\e900";
 }
-.icon-facebook:before {
-  content: "\e76b";
+.icon-facebook-with-circle:before {
+  content: "\e901";
 }
-.icon-twitter:before {
-  content: "\e76f";
+.icon-pinterest-with-circle:before {
+  content: "\e902";
 }
-.icon-pinterest:before {
-  content: "\e7a6";
+.icon-twitter-with-circle:before {
+  content: "\e903";
 }

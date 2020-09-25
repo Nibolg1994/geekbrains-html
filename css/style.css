@@ -465,16 +465,136 @@ body {
     background-image: url("../img/footer-back.svg");
 }
 
-.networks {
+.footer-contacts {
+    float: left;
+    width: 225px;
+}
+
+.footer-information {
+    float: left;
+    margin-left: 78px;
+    margin-right: 78px;
+}
+
+.networks a {
     color: #6c6c6c;
     font-family: 'icomoon';
     font-size: 28px;
     font-weight: 400;
     line-height: 26px;
     text-transform: uppercase;
-    /* Text style for ", " */
     letter-spacing: 5.6px;
+    text-decoration: none;
 }
+
+.footer-header {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
+}
+
+.contact-number, .contact-email, .footer-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.footer-info {
+
+}
+.footer-info a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: #6c6c6c;
+}
+
+.footer-text-container {
+   padding-top: 120px;
+   overflow: hidden;
+}
+
+.footer-form {
+    float: left;
+    width: 370px;
+}
+
+.footer-email {
+    width: 370px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    margin-top: 26px;
+    padding: 15px;
+    position: relative;
+}
+
+.footer-email input {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    height: 100%;
+    border: 0;
+    margin-right: 15px;
+    width: 310px;
+    box-sizing: border-box;
+}
+
+.i-arrow {
+    position: absolute;
+    right: 16px;
+}
+
+.footer-email input:focus {
+    outline: none;
+}
+
+
+.footer-info {
+    float: left;
+}
+.footer-info:nth-child(3) {
+    margin-left: 103px;
+}
+
+.footer-info ul {
+    list-style-type: none;
+}
+
+.footer-links-container {
+    clear: both;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+
+.privacy a, .copyright {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+}
+
+.privacy a:hover {
+    text-decoration: underline;
+}
+
 
 
 
